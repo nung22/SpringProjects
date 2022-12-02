@@ -735,3 +735,43 @@
 2022-12-01 18:52:40,872 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2022-12-01 18:52:40,875 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\hellohuman\src\test\resources
 2022-12-01 18:53:43,366 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 18:53:43,370 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 18:53:43,372 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\hellohuman\src\test\resources
+2022-12-01 19:11:04,932 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:11:04,933 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:11:04,936 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\hellohuman\src\test\resources
+2022-12-01 19:21:52,332 [Worker-57: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nicholasung.daikichipathvariables:daikichipathvariables:0.0.1-SNAPSHOT @ C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\pom.xml.
+2022-12-01 19:21:52,620 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /daikichipathvariables/src/main/java
+2022-12-01 19:21:52,621 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /daikichipathvariables/src/main/resources
+2022-12-01 19:21:52,627 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /daikichipathvariables/src/main/resources
+2022-12-01 19:21:52,630 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /daikichipathvariables/src/test/java
+2022-12-01 19:21:53,018 [Worker-57: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-12-01 19:21:53,019 [Worker-57: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-01 19:21:53,177 [Worker-57: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nicholasung.daikichipathvariables:daikichipathvariables:0.0.1-SNAPSHOT @ C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\pom.xml.
+2022-12-01 19:21:53,478 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /daikichipathvariables/src/main/java
+2022-12-01 19:21:53,479 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /daikichipathvariables/src/main/resources
+2022-12-01 19:21:53,479 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /daikichipathvariables/src/main/resources
+2022-12-01 19:21:53,480 [Worker-57: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /daikichipathvariables/src/test/java
+2022-12-01 19:21:53,941 [Worker-57: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for daikichipathvariables
+2022-12-01 19:21:53,944 [Worker-57: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-12-01 19:21:54,174 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:21:54,176 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:21:54,179 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:21:54,179 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of daikichipathvariables
+2022-12-01 19:21:54,179 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for daikichipathvariables
+2022-12-01 19:23:15,893 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:23:15,899 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:23:15,903 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:23:50,829 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:23:50,833 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:23:50,843 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:28:17,244 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:28:17,247 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:28:17,249 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:34:34,483 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:34:34,488 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:34:34,491 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:41:09,529 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-01 19:41:09,532 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-01 19:41:09,534 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nicholas\Desktop\SpringProjects\daikichipathvariables\src\test\resources
+2022-12-01 19:43:33,326 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
