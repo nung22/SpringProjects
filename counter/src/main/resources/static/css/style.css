@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: .3rem;
+    font-size: 1.5rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 8rem;
+}
