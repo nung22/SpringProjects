@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    width: 22%;
+}
+
+h1 {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+form, .results {
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 2rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.btn {
+    margin: 1rem auto;
+    width: 7rem;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    background-color: #9fc5f8;
+}
+
+p {
+    font-size: 1.6rem;
+}
