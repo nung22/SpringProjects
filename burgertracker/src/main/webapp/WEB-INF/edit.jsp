@@ -17,14 +17,15 @@
 <body>
     <div class="container">
 		<div class="header">
-        	<h1 class="my-4 text-primary">Edit Burger</h1>
+        	<h1 class="mt-4 text-primary">Edit Burger</h1>
         	<a href="/">Go back</a>
         </div>
-		<form:form action="/burgers" method="put" modelAttribute="burger">
+		<form:form action="/burgers/${burger.id}" method="post" modelAttribute="burger">
 		    <h6><form:errors path="name" class="text-danger"/></h6>
 		    <h6><form:errors path="restaurant" class="text-danger"/></h6>
 		    <h6><form:errors path="rating" class="text-danger"/></h6>
 		    <h6><form:errors path="notes" class="text-danger"/></h6>
+			<input type="hidden" name="_method" value="put">
 		    <p>
 		        <form:label path="name">Burger Name</form:label>
 		        <form:input path="name"/>

@@ -40,6 +40,9 @@ public class BurgerService {
     }
     // deletes a burger
     public void deleteBurger(Long id) {
-        burgerRepository.deleteById(id);
+    	Optional<Burger> optionalBurger = burgerRepository.findById(id);
+    	if(optionalBurger.isPresent()) {
+    		burgerRepository.deleteById(id);    		
+    	}
     }
 }

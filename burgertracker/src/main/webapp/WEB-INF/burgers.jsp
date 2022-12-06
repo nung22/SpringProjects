@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <h1 class="my-4 text-primary">Burger Tracker</h1>
-        <table class="table table-hover table-bordered table-striped text-center">
+        <table class="table table-bordered table-striped text-center">
             <thead>
                 <tr>
                     <th>Burger Name</th>

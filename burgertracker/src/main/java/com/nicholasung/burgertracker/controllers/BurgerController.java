@@ -52,7 +52,7 @@ public class BurgerController {
         model.addAttribute("burger", burger);
         return "edit.jsp";
     }
-    @PutMapping("/burgers")
+    @PutMapping("/burgers/{id}")
     public String update(
     		@Valid @ModelAttribute("burger") Burger burger, 
     		BindingResult result) {
