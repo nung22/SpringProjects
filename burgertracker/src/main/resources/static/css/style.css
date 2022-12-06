@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.table {
+	width: 50%; 
+	border: 2px solid black
+}
+
+form {
+	width: 29rem;
+	margin: 3rem;
+}
+
+form h3 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+label {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+input, textarea {
+	width: 18rem;
+	padding: 2px 4px;
+}
+
+.btn {
+	width: 5rem;
+	margin-left: 24rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 32rem;
+}

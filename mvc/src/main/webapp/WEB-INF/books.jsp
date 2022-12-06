@@ -29,8 +29,8 @@
                 <tr>
                     <td scope="row"><c:out value="${book.getId()}"></c:out></td>
                     <td><a href="<c:url value = "/books/${book.getId()}"/>">
-                        <c:out value="${book.getTitle()}">
-                    </a></c:out></td>
+                        <c:out value="${book.getTitle()}"/>
+                    </a></td>
                     <td><c:out value="${book.getLanguage()}"></c:out></td>
                     <td><c:out value="${book.getNumberOfPages()}"></c:out></td>
                 </tr>
