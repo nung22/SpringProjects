@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL FORMATTING */
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+}
+h1 {
+	font-weight: bold;
+}
+p {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+label, .label {
+	font-size: 18px;
+	font-weight: bold;
+}
+input, textarea {
+	width: 18rem;
+	padding: 2px 4px;
+}
+.submit {
+	width: 5rem;
+	margin-left: 24rem;
+}
+
+
+/* READ SHARE PAGE */
+.table {
+	width: 40rem; 
+	border: 2px solid black;
+}
+form {
+	width: 29rem;
+	margin: 3rem;
+}
+form h3 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.actions {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.actions .btn {
+	font-size: .9rem;
+	padding: 5px 10px;
+}
+
+/* EDIT PAGE */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 32rem;
+}
+
+/* SHOW PAGE */
+.display-expense {
+	width: 30rem;
+}
+.info {
+	font-size: 18px;
+	width: 18rem;
+}

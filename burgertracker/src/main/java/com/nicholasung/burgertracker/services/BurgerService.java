@@ -1,6 +1,6 @@
 package com.nicholasung.burgertracker.services;
 
-import java.util.List;
+import java.util.List; 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
@@ -27,6 +27,7 @@ public class BurgerService {
     }
     // retrieves a burger
     public Burger findBurger(Long id) {
+//    	return burgerRepository.findById(id).orElse(null);
         Optional<Burger> optionalBurger = burgerRepository.findById(id);
         if(optionalBurger.isPresent()) {
             return optionalBurger.get();
