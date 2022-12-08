@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL FORMATTING */
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    background-color: lightgray;
+    width: 43rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+h1 {
+	font-weight: bold;
+}
+p {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+label, .label {
+	font-size: 18px;
+	font-weight: bold;
+}
+input, textarea {
+	width: 18rem;
+	padding: 2px 4px;
+}
+.submit {
+	width: 5rem;
+	margin-left: 24rem;
+}
+
+
+/* READ SHARE PAGE */
+.table {
+	width: 32rem; 
+	border: 2px solid black;
+	background-color: white;
+}
+form {
+	width: 29rem;
+	margin: 3rem;
+}
+form h3 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.actions {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.delete {
+	font-size: .8rem;
+	padding: 3px 10px;
+}
+
+/* EDIT PAGE */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 38rem;
+}
+
+/* SHOW PAGE */
+.display-expense {
+	width: 30rem;
+}
+.info {
+	font-size: 18px;
+	width: 18rem;
+}
