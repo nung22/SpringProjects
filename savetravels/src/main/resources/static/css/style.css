@@ -7,8 +7,12 @@
 
 /* GENERAL FORMATTING */
 .container {
-    margin: 0 auto;
+	width: 45rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
     font-family: "Figtree", sans-serif;
+    background-color: lightgray;
 }
 h1 {
 	font-weight: bold;
@@ -31,11 +35,10 @@ input, textarea {
 	margin-left: 24rem;
 }
 
-
 /* READ SHARE PAGE */
 .table {
 	width: 40rem; 
-	border: 2px solid black;
+	background-color: white;
 }
 form {
 	width: 29rem;

@@ -19,6 +19,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table(name="expenses")
 public class Expense {
+	// MEMBER VARIABLES
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,20 +27,29 @@ public class Expense {
     @Size(min = 1, max = 100, message="Expense name must not be blank.")
     private String name;
     @NotNull
-    @Size(min = 1, max = 200, message="Vendor name must not be blank.")
+    @Size(min = 1, max = 200, message="Description must not be blank.")
     private String description;
     @NotNull
-    @Size(min = 1, max = 100, message="Description must not be blank.")
+    @Size(min = 1, max = 100, message="Vendor name must not be blank.")
     private String vendor;
     @NotNull(message="Amount must be greater than 0.")
-    @Min(value = 0, message="Amount must be greater than 0.")
+    @Min(value = 1, message="Amount must be at least $1.00.")
     private float amount;
-    // This will not allow the createdAt column to be updated after creation
+    
+    // createdAt & updatedAt are auto-generated 
     @Column(updatable=false)
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date createdAt;
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date updatedAt;
+	@PrePersist
+    protected void onCreate(){
+        this.createdAt = new Date();
+    }
+    @PreUpdate
+    protected void onUpdate(){
+        this.updatedAt = new Date();
+    }
     
     // CONSTRUCTORS
     public Expense() {
@@ -82,12 +92,4 @@ public class Expense {
 	public void setAmount(float amount) {
 		this.amount = amount;
 	}
-	@PrePersist
-    protected void onCreate(){
-        this.createdAt = new Date();
-    }
-    @PreUpdate
-    protected void onUpdate(){
-        this.updatedAt = new Date();
-    }
 }

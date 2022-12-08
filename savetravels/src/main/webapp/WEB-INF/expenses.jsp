@@ -59,7 +59,7 @@
 		    </p>
 		    <p>
 		        <form:label path="amount">Amount:</form:label>       
-		        <form:input type="number" step="0.01" path="amount"/>
+		        <form:input type="number" step="0.01" min="1.00" value="0.00" path="amount"/>
 		    </p>    
 		    <p>
 		        <form:label path="description">Description:</form:label>

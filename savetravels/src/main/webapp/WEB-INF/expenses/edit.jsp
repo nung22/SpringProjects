@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 	<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 	<%@ page isErrorPage="true" %> 
 <!DOCTYPE html>
@@ -20,11 +21,12 @@
         	<h1 class="mt-4 text-success">Edit Expense</h1>
         	<a href="/">Go back</a>
         </div>
-		<form:form action="/expenses" method="post" modelAttribute="expense">
+		<form:form action="/expenses/${expense.getId()}" method="post" modelAttribute="expense">
 		    <h6><form:errors path="name" class="text-danger"/></h6>
 		    <h6><form:errors path="vendor" class="text-danger"/></h6>
 		    <h6><form:errors path="amount" class="text-danger"/></h6>
 		    <h6><form:errors path="description" class="text-danger"/></h6>
+		    <input type="hidden" name="_method" value="put">
 		    <p>
 		        <form:label path="name">Expense Name:</form:label>
 		        <form:input path="name"/>
@@ -35,7 +37,7 @@
 		    </p>
 		    <p>
 		        <form:label path="amount">Amount:</form:label>       
-		        <form:input type="number" path="amount"/>
+		        <form:input type="number" step="0.01" path="amount"/>
 		    </p>    
 		    <p>
 		        <form:label path="description">Description:</form:label>
