@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #212529;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    padding-top: 3rem;
+    width: 60rem;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.h1 {
+	font-weight: bold;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: space-evenly;
+}
+.logout {
+	width: 4rem;
+	font-size: .9rem;
+	padding: 2px;
+}
+
+/* Login & Registration */
+.forms {
+	display: flex;
+	justify-content: space-evenly;
+}
+.login-reg {
+    margin-inline: auto;
+    width: 27rem;
+    padding: 3rem;
+}
+.login-reg h1 {
+    margin-bottom: 2rem;
+}
+.login-reg input {
+    border-radius: 20px;
+    padding-left: 1rem;
+    width: 22rem;
+}
+.login-reg label {
+    font-size: 18px;
+    margin-bottom: -1px;
+    padding-left: 1rem;
+}
+.login-reg .btn {
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 14px;
+    margin-inline: auto;
+    width: 22rem;
+    margin-left: -12px;
+    border-width: 2px;
+}
+
+/* Dashboard */
+.table {
+	width: 100%; 
+	background-color: white;
+}
+
+/* Book Info Card */
+.thoughts {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 50%;
+	margin: 2rem 1rem;
+	padding: 1rem 0;
+}
+.actions {
+	width: 52%;
+	display: flex;
+	justify-content: end;
+}
+.actions .btn {
+	width: 4rem;
+	font-size: .9rem;
+	padding: 0;
+	margin-left: 1rem;
+}
+
+/* Add & Edit Book Forms */
+form {
+	width: 29rem;
+	margin: 3rem;
+}
+.form-grp {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+label {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+input, textarea {
+	width: 18rem;
+	padding: 2px 4px;
+}
+.submit {
+	width: 5rem;
+	margin-left: 24rem;
+}

@@ -18,9 +18,17 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @NotEmpty(message="Username is required!")
-    @Size(min=3, max=30, message="Username must be between 3 and 30 characters")
-    private String userName;
+    @NotEmpty(message="First name is required!")
+    @Size(min=3, max=30, message="First name must be between 3 and 30 characters")
+    private String firstName;
+    
+    @NotEmpty(message="Last name is required!")
+    @Size(min=3, max=30, message="Last name must be between 3 and 30 characters")
+    private String lastName;
+    
+    @NotEmpty(message="Phone number is required!")
+    @Size(min=10, max=10, message="Phone number must be 10 digits")
+    private String phoneNumber;
     
     @NotEmpty(message="Email is required!")
     @Email(message="Please enter a valid email!")
@@ -45,12 +53,28 @@ public class User {
 		this.id = id;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
 	public String getEmail() {

@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    background-color: #212529;
+    padding-top: 3rem;
+}
+.greeting, .message {
+	margin-left: 7rem;
+}
+
+/* Login & Registration General Formatting */
+.forms {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.login-reg {
+    margin-inline: auto;
+    width: 27rem;
+    padding: 3rem;
+}
+.login-reg h1 {
+    margin-bottom: 2rem;
+}
+.login-reg input {
+    border-radius: 20px;
+    padding-left: 1rem;
+    width: 22rem;
+}
+.login-reg label {
+    font-size: 18px;
+    margin-bottom: -1px;
+    padding-left: 1rem;
+}
+.login-reg .btn {
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 14px;
+    margin-inline: auto;
+    width: 22rem;
+    margin-left: -12px;
+    border-width: 2px;
+}
+.login-reg .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
