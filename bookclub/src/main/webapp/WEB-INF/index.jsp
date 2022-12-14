@@ -23,26 +23,26 @@
 		            <!-- Form Input -->
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="firstName">First Name</form:label>
-		                <form:input class="form-control bg-light"  path="firstName" placeholder=""/>
+		                <form:input class="form-control bg-light"  path="firstName" placeholder="" required="true"/>
 		            </div>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="lastName">Last Name</form:label>
-		                <form:input class="form-control bg-light"  path="lastName" placeholder=""/>
+		                <form:input class="form-control bg-light"  path="lastName" placeholder="" required="true"/>
 		            </div>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="email">Email</form:label>
-		                <form:input class="form-control bg-light" type="email" path="email" placeholder="name@example.com"/>
+		                <form:input class="form-control bg-light" type="email" path="email" placeholder="name@example.com" required="true"/>
 		            </div>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="password">Password</form:label>
-		                <form:input class="form-control bg-light" type="password" path="password" aria-describedby="passwordHelpBlock"/>
+		                <form:input class="form-control bg-light" type="password" path="password" aria-describedby="passwordHelpBlock" required="true"/>
 		                <div id="passwordHelpBlock" class="form-text">
 		                    Your password must be at least 8 characters long.
 		                </div>
 		            </div>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="confirm">Confirm Password</form:label>
-		                <form:input class="form-control bg-light" type="password" path="confirm" placeholder="type password again"/>
+		                <form:input class="form-control bg-light" type="password" path="confirm" placeholder="type password again" required="true"/>
 		            </div>
 		            <input class="form-control btn btn-primary fw-bold mt-2" type="submit" value="CREATE ACCOUNT"/>
 		        </form:form>
@@ -54,11 +54,11 @@
 				    <h6><form:errors path="password" class="text-danger"/></h6>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="email">Email</form:label>
-		                <form:input class="form-control bg-light" type="email" path="email"/>
+		                <form:input class="form-control bg-light" type="email" path="email" required="true"/>
 		            </div>
 		            <div class="form-group row mb-3">
 		                <form:label class="text-light mb-1" path="password">Password</form:label>
-		                <form:input class="form-control bg-light" type="password" path="password"/>
+		                <form:input class="form-control bg-light" type="password" path="password" required="true"/>
 		            </div>
 		            <input class="form-control btn btn-primary fw-bold mt-2" type="submit" value="SIGN IN"/>
 		        </form:form>

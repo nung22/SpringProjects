@@ -24,11 +24,11 @@ public class UserService {
         
         // Reject if email is taken (present in database)
     	if(userRepo.findByEmail(newUser.getEmail()).isPresent()) {
-    	    result.rejectValue("email", "Taken", "This email is already taken!");
+    	    result.rejectValue("email", "Taken", "This email is already taken.");
     	}
         // Reject if password doesn't match confirmation
     	if(!newUser.getPassword().equals(newUser.getConfirm())) {
-    	    result.rejectValue("confirm", "Matches", "The passwords must match!");
+    	    result.rejectValue("confirm", "Matches", "The passwords must match.");
     	}
         // Return null if result has errors
     	if(result.hasErrors()) {

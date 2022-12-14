@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #181a1b;
+}
+/* General Formatting */
+.container {
+    margin: 0 auto;
+    font-family: "Figtree", sans-serif;
+    color: white;
+    padding-top: 3rem;
+    width: 970px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.logout, .new-project {
+	font-size: .9rem;
+	margin-bottom: 1rem;
+}
+.site-title {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+.btn {
+	border-radius: .6rem
+}
+/* Error Formatting */
+.errors {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+.text-danger {
+	font-size: .9rem;
+}
+.reg .errors {
+	height: 8rem;
+}
+.login .errors {
+	height: 2rem;
+}
+.edit-errors, .create-errors {
+	height: 4rem;
+}
+/* Login & Registration */
+.forms {
+	display: flex;
+	justify-content: space-evenly;
+}
+.login-reg {
+    margin-inline: auto;
+    width: 27rem;
+}
+.login-reg h2 {
+	font-size: 2.1rem;
+	margin-top: 2rem;
+}
+.login-reg input {
+    border-radius: 20px;
+    padding-left: 1rem;
+    width: 22rem;
+}
+.login-reg label {
+    font-size: 18px;
+    margin-bottom: -1px;
+    padding-left: 1rem;
+}
+.login-reg .btn {
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 14px;
+    margin-inline: auto;
+    width: 22rem;
+    margin-left: -12px;
+    border-width: 2px;
+}
+
+/* Dashboard */
+.table {
+	width: 100%; 
+	background-color: white;
+	margin-top: 1.5rem;
+	border-radius: .6rem;
+}
+.table-header {
+	align-items: end;
+}
+.table-holder {
+	height: 20rem;
+	overflow: auto;
+	max-height: 20rem;
+}
+/* Add & Edit Book Forms */
+form, .display {
+	width: 33rem;
+	margin-left: 1rem;
+}
+.form-grp {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+label, .label {
+	color: white;
+	font-size: 18px;
+}
+input, textarea, .info {
+	width: 18rem;
+	padding: 2px 4px;
+}
+.submit {
+	width: 5rem;
+}
+.form-btns {
+	display: flex;
+	justify-content: end;
+	gap: 2rem;
+	margin-top: 3rem;
+}
+.form-btn {
+	padding: .2rem .7rem;
+}
+/* Tasks */
+.task-form textarea {
+	width: 21rem;
+}
+.task-list-header {
+	padding: .4rem 1.5rem;
+	width: 34rem;
+	border-top-left-radius: .6rem;
+	border-top-right-radius: .6rem;
+}
+.task-list {
+	border-bottom-left-radius: .6rem;
+	border-bottom-right-radius: .6rem;
+	max-height: 27rem;
+	overflow: auto;
+	width: 34rem;
+	padding: 1.5rem;
+}
+.timestamp {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: .5rem;
+}
+.close-task{
+	font-size: .7rem;
+}
+.ticket {
+	margin-top: -1rem;
+	margin-bottom: 1.5rem;
+}
